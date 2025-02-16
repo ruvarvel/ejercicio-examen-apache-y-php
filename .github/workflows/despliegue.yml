@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: composer install
 
-    - name: Run tests
+    - name: Run tests2
       run: ./vendor/bin/phpunit tests
   deploy:
     runs-on: ubuntu-latest

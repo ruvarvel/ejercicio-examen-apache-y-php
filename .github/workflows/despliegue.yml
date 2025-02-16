@@ -2,7 +2,7 @@ name: CI/CD Pipeline for ejercicio calculadora ampliada - Tema 5
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   test:
     runs-on: ubuntu-latest
